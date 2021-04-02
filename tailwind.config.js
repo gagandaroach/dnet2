@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: [
     './components/**/*.{vue,js}',
@@ -8,6 +10,11 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      'sans': ['Ubuntu', 'ui-sans-serif', 'system-ui'],
+      'serif': ['Roboto Slab', 'ui-serif', 'Georgia'],
+      'mono': ['Ubuntu Mono', 'ui-monospace', 'SFMono-Regular'],
+    },
     extend: {},
   },
   variants: {
