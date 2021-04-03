@@ -3,9 +3,11 @@
     <div
       class="p-10 m-auto max-w-lg bg-gray-200 rounded-xl shadow-md text-center"
     >
-      <Logo />
+      <div>
+        <img class="object-scale-down" src="/donuts.gif" />
+      </div>
       <div class="my-4">
-        <h1 class="text-3xl">Daroach.net</h1>
+        <h1 class="text-3xl">daroach.net</h1>
         <h1 class="text-base">You have used the power of the internet to connect to Gagan's personal server.</h1>
       </div>
       <div class="mt-3">

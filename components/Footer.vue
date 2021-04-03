@@ -7,6 +7,7 @@
             ><a
               :title="source_code_popup_text"
               href="https://github.com/gagandaroach/daroachnet"
+              target="_blank"
               >{{ source_code_link_title }}</a
             ></span
           >
@@ -15,7 +16,7 @@
           <a
             :title="copyright_popup_text"
             href="mailto:gagandaroach@gmail.com?Subject=Hello Gagan, I like daroach.net!"
-            target="_top"
+            target="_blank"
             ><span>Gagan Daroach &copy; 2019-2021</span></a
           >
         </div>
