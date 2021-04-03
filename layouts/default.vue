@@ -6,14 +6,14 @@
     <div class="m-auto">
       <Nuxt />
     </div>
-    <div class="app-footer">
+    <div class="dnet-footer">
       <Footer />
     </div>
   </div>
 </template>
 
 <style>
-.app-footer {
+.dnet-footer {
   position: fixed;
   bottom: 0;
   width: 100%;

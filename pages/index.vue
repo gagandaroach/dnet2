@@ -6,11 +6,11 @@
 
 <script lang="ts">
 import Vue from "vue";
-import landing from "~/layouts/landing.vue";
+import landing from "~/layouts/fullscreen.vue";
 
 export default Vue.extend({
   components: { landing },
-  layout: "landing",
+  layout: "fullscreen",
 });
 </script>
 
