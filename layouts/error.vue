@@ -6,7 +6,7 @@
     </div>
     <NuxtLink
       to="/"
-      class="p-2 bg-red-300 rounded-md hover:text-white hover:bg-red-900"
+      class="dnet-button"
       >Return to daroach.net</NuxtLink
     >
     <!-- <a
@@ -24,11 +24,4 @@ export default {
 };
 </script>
 
-<style scoped>
-h1 {
-  @apply text-4xl;
-}
-p {
-  @apply text-base;
-}
-</style>
+<style></style>
