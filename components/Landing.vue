@@ -1,7 +1,7 @@
 <template>
-  <div class="flex h-screen">
+  <div class="container flex h-screen">
     <div
-      class="p-10 m-auto max-w-lg bg-gray-200 rounded-xl shadow-md text-center"
+      class="p-10 m-auto max-w-md bg-gray-200 rounded-xl shadow-md text-center"
     >
       <div>
         <img class="object-scale-down" src="/donuts.gif" />

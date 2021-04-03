@@ -1,10 +1,13 @@
 <template>
-  <div
-    class="p-10 m-auto max-w-lg bg-gray-200 rounded-xl shadow-md text-center"
-  >
-    <div>
+  <div>
+    <div
+      class="p-10 m-auto max-w-lg bg-gray-200 rounded-xl shadow-md text-center"
+    >
       <h1 class="title">DAROACHNET HOME PAGE</h1>
       <NuxtLink to="/"> Back to Landing </NuxtLink>
+    </div>
+    <div>
+      <AboutGagan />
     </div>
   </div>
 </template>
